@@ -61,7 +61,7 @@ class DiceLoss(nn.Module):
         return dice_loss
 
 def train():
-	val = Val()
+    val = Val()
     my_data = My_Data()
     my_unet = My_Unet().cuda()
     loss_func = torch.nn.BCEloss().cuda()
@@ -124,7 +124,7 @@ def test():
         print('the %d image has been test!'%i)
 
 if __name__ == '__main__':
-	if FLAGS.mode == 'train':
+    if FLAGS.mode == 'train':
         train()
     elif FLAGS.mode == 'test':
         test()
