@@ -1,2 +1,2 @@
-# UnetSegmentation
-使用Unet系列网络对医学图像进行分割。
+# Segmentation
+自定义分割网络，有tensorflow和pytorch两个版本。
